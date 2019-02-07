@@ -31,7 +31,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
     pod 'Kingfisher'
     pod 'Auk', :git => 'https://github.com/moslienko/Auk-Kingfisher.git'
 
-<img src='https://raw.githubusercontent.com/moslienko/Auk-Kingfisher/master/Graphics/Screenshots/frameworks.png' width='160' style='display:block; margin-left: auto;margin-right: auto;' alt='Included frameworks'>
+<img src='https://raw.githubusercontent.com/moslienko/Auk-Kingfisher/master/Graphics/Screenshots/frameworks.png' width='100%' style='display:block; margin-left: auto;margin-right: auto;' alt='Included frameworks'>
 
 ## Usage
 
