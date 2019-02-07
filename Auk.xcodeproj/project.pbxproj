@@ -377,7 +377,7 @@
 			buildConfigurationList = 7E98FDC21B47C10300192AAF /* Build configuration list for PBXLegacyTarget "ConcatenateSwiftFiles" */;
 			buildPhases = (
 			);
-			buildToolPath = $PROJECT_DIR/scripts/concatenate_swift_files.sh;
+			buildToolPath = "$PROJECT_DIR/scripts/concatenate_swift_files.sh";
 			buildWorkingDirectory = "";
 			dependencies = (
 			);

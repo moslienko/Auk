@@ -1,4 +1,5 @@
 import UIKit
+import Kingfisher
 
 /// The view for an individual page of the scroll view containing an image.
 final class AukPage: UIView {
