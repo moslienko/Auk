@@ -9,10 +9,7 @@ final class AukPage: UIView {
 
   // Image view for showing local and remote images
   weak var imageView: UIImageView?
-  
-  // Contains a URL for the remote image, if any.
-  var remoteImage: AukRemoteImage?
-  
+    
   /**
   
   Shows an image.
@@ -35,17 +32,15 @@ final class AukPage: UIView {
   
   */
   func show(url: String, settings: AukSettings) {
-    if settings.placeholderImage != nil {
-      placeholderImageView = createAndLayoutImageView(settings)
-    }
-        
     imageView = createAndLayoutImageView(settings)
-    
+
     if let imageView = imageView {
-      remoteImage = AukRemoteImage()
-      remoteImage?.setup(url, imageView: imageView, placeholderImageView: placeholderImageView,
-        settings: settings)
+        imageView.kf.setImage(
+            with: URL(string: url),
+            placeholder: settings.placeholderImage
+        )
     }
+    //@todo set errorImage if error show image
   }
   
   /**
@@ -54,7 +49,7 @@ final class AukPage: UIView {
   
   */
   func visibleNow(_ settings: AukSettings) {
-    remoteImage?.downloadImage(settings)
+    //remoteImage?.downloadImage(settings)
   }
   
   /**
@@ -63,7 +58,7 @@ final class AukPage: UIView {
   
   */
   func outOfSightNow() {
-    remoteImage?.cancelDownload()
+    imageView?.kf.cancelDownloadTask()
   }
      
   /// Removes image views.
@@ -82,8 +77,7 @@ final class AukPage: UIView {
   */
   func prepareForReuse() {
     removeImageViews()
-    remoteImage?.cancelDownload()
-    remoteImage = nil
+    imageView?.kf.cancelDownloadTask()
   }
     
   /**
