@@ -1,7 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:"
+      name = "Kingfisher">
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:Sources"
+         name = "Sources">
+         <FileRef
+            location = "group:ImageCache.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ThreadHelper.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Kingfisher.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RequestModifier.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImageView+Kingfisher.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Image.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Indicator.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CacheSerializer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIButton+Kingfisher.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Resource.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImageDownloader.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Kingfisher.h">
+         </FileRef>
+         <FileRef
+            location = "group:Box.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImageModifier.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KingfisherManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:FormatIndicatedCacheSerializer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImageTransition.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AnimatedImageView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:String+MD5.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImageProcessor.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Filter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Placeholder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KingfisherOptionsInfo.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ImagePrefetcher.swift">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:/Users/evgenii/Developer/GithubDemos/TheAuk/Auk.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

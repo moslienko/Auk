@@ -1,6 +1,5 @@
 import XCTest
 import UIKit
-import moa
 @testable import Auk
 
 class AukInterfaceImagesTests: XCTestCase {
@@ -27,7 +26,6 @@ class AukInterfaceImagesTests: XCTestCase {
   }
   
   func testReturnImages() {
-    let simulator = MoaSimulator.simulate("site.com")
     auk.show(url: "http://site.com/moa.png")
     simulator.respondWithImage(createImage67px())
     

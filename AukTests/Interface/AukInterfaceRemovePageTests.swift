@@ -1,5 +1,4 @@
 import XCTest
-import moa
 @testable import Auk
 
 class AukInterfaceRemovePageTests: XCTestCase {
