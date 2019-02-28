@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source      = { :git => "https://github.com/moslienko/Auk-Kingfisher.git", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/moslienko/Auk-Kingfisher/master/Graphics/Screenshots/mainScreen.png"
   s.source_files = "Auk/**/*.swift"
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "10.0"
   s.dependency "Kingfisher"
   s.swift_version = "4.2"
 end

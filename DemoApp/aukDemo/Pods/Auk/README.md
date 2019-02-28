@@ -15,20 +15,20 @@ This is an iOS library that shows an image carousel with a page indicator. Users
 
 There are three ways you can add Auk to your Xcode project.
 
-#### Add source (iOS 7+)
+#### Add source (iOS 10+)
 
 Simply add two files to your project:
 
 1. Kingfisher image downloader [Kingfisher](https://github.com/onevcat/Kingfisher).
 2. Auk image slideshow [AukDistrib.swift](https://github.com/moslienko/Auk-Kingfisher/blob/master/Distrib/AukDistrib.swift).
 
-#### Setup with Carthage (iOS 8+)
+#### Setup with Carthage (iOS 10+)
 
 1. Add `github "moslienko/Auk-Kingfisher" ~> 9.0` to your Cartfile.
 2. Run `carthage update`.
 3. Add `Kingfisher` and `Auk` frameworks into your project.
 
-#### Setup with CocoaPods (iOS 8+)
+#### Setup with CocoaPods (iOS 10+)
 
 If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
